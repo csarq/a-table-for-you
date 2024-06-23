@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>A Table for You by Chef José</title>
+  <title>A Table for You</title>
 </head>
 <body>
   <main>
@@ -17,9 +17,9 @@
     
     <nav class="nav">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sample Menus</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="sample-menus.php">Sample Menus</a></li>
+        <li><a href="about.php">About</a></li>
       </ul>
       </nav> 
 

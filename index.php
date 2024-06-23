@@ -1,5 +1,5 @@
 <?php
-include 'inc/header.php';
+include 'inc/header.inc.php';
 ?>
         <section class="quote">
             <blockquote>
