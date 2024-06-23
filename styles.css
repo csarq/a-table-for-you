@@ -17,18 +17,78 @@ main {
 
 .title {
   grid-area: title;
+  display: grid;
+  place-items: center;
+  background-image: url("img/title-dessert.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+
+}
+
+.backdrop {
+  background-color: rgba(255, 255, 255, 0.50);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  width: fit-content;
+  padding: 2% 5%;
 }
 
 .nav {
   grid-area: nav;
+  display: flex;
+  justify-content: flex-end;
+  /* Align items to the right */
+}
+
+.nav ul {
+  list-style: none;
+  /* Remove default list markers */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* Make list items display horizontally */
+}
+
+.nav li {
+  margin-left: 20px;
+  /* Add spacing between list items */
+}
+
+.nav a {
+  display: block;
+  /* Make entire area clickable */
+  padding: 1em 0 1em 1em;
+  /* Add padding for visual appeal */
+  text-decoration: none;
+  /* Remove default link underline */
+  color: #333;
+  /* Set a default text color */
+}
+
+/* Focus state for keyboard navigation */
+.nav a:focus {
+  outline: none;
+  /* Remove default outline */
+  background-color: #eee;
+  /* Add subtle background on focus */
+}
+
+/* Optional: Hover state for mouse users */
+.nav a:hover {
+  text-decoration: underline;
+  /* Add underline on hover */
 }
 
 .quote {
   grid-area: quote;
+  border: 1em solid rgb(214, 172, 179);
 }
 
 .events-list {
   grid-area: events-list;
+  background-color: rgb(243, 223, 227);
 }
 
 img {

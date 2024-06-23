@@ -8,7 +8,13 @@
 </head>
 <body>
   <main>
-    <h1 class="title">A Table for You by Chef José</h1>
+    <section class="title">
+    <header class="backdrop">
+    <h1>A Table for You by Chef José</h1>
+    </header>
+    </section>
+
+    
     <nav class="nav">
       <ul>
         <li><a href="#">Home</a></li>
