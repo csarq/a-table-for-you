@@ -1,7 +1,13 @@
 <?php
 $sampleMenu = "Starters";
-include 'inc/sample-menus.inc.php';
+include 'sample-menus.php';
 ?>
+<section class="menuTitle">
+    <h2><?php echo $sampleMenu; ?></h2>
+</section>
+
+<section class="menuItems">
+
 <section>
             <h3>Seared Tuna Tataki with wasabi aioli</h3>
             <p>Delicately seared tuna slices served with a zesty wasabi aioli, pickled ginger, and crispy wonton strips.</p> 

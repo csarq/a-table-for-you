@@ -1,7 +1,13 @@
 <?php
 $sampleMenu = "Mains";
-include 'inc/sample-menus.inc.php';
+include 'sample-menus.php';
 ?>
+<section class="menuTitle">
+    <h2><?php echo $sampleMenu; ?></h2>
+</section>
+
+<section class="menuItems">
+
 <section>
             <h3>Pomegranate-glazed duck breast</h3>
             <p>Succulent duck breast glazed with pomegranate reduction, served with a wild rice pilaf and sautéed baby bok choy.</p> 

@@ -1,7 +1,14 @@
 <?php
 $sampleMenu = "Desserts";
-include 'inc/sample-menus.inc.php';
+include 'sample-menus.php';
 ?>
+
+<section class="menuTitle">
+    <h2><?php echo $sampleMenu; ?></h2>
+</section>
+
+<section class="menuItems">
+  
 <section>
             <h3>Dark chocolate raspberry tart</h3>
             <p>A decadent dark chocolate tart filled with fresh raspberries and drizzled  with raspberry coulis, accompanied by a raspberry sobet quenelle.</p> 

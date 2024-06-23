@@ -12,8 +12,4 @@ include 'inc/alt-header.inc.php';
     </ul>
 </section>
 
-<section class="menuTitle">
-    <h2><?php echo $sampleMenu?></h2>
-</section>
 
-<section class="menuItems">
