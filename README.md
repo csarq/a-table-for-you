@@ -2,7 +2,7 @@
 
 **Private Chef Website: Where the PHP is Always Fresh (and the CSS... well, it's getting there)**
 
-Welcome to my culinary PHP adventure! This is a multi-page site I'm proofing my skills for a private chef (get it?). Think of it like a tasting menu – each page is a little experiment, and some are tastier than others.
+Welcome to my culinary PHP adventure! This is a multi-page site I'm proofing my skills for a private chef. Think of it like a tasting menu – each page is a little experiment, and some are tastier than others.
 
 **Current Menu (Features):**
 
@@ -14,7 +14,7 @@ Welcome to my culinary PHP adventure! This is a multi-page site I'm proofing my 
 
 Proceed with caution – this code is a work in progress. You might encounter:
 
-- **CSS Mayhem:** Brace yourself for style mishaps. It's like my own cooking: I it just about tastes ok.
+- **CSS Mayhem:** Brace yourself for style mishaps. It's like my own cooking: it just about tastes ok.
 - **PHP Quirks:** There might be some unconventional PHP choices. Think of it as a fusion cuisine experiment.
 
 **To Serve Locally (with XAMPP):**
