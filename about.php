@@ -5,6 +5,10 @@ include 'inc/alt-header.inc.php';
 ?>
 
 <section class="about">
-    <h2>About Chef José</h2>
-    <p>Chef José is a professional chef with over 20 years of working for Michelin-star chefs. He has worked in some of the finest restaurants in the world and has cooked for royal families. Chef José is known for his innovative and creative dishes that combine traditional flavors with modern techniques. He is passionate about using the freshest ingredients and creating dishes that are both delicious and beautiful. Chef José is excited to share his love of food with you and hopes that you enjoy your dining experience at A Table for You.</p>
+    <h2>About A Table for You</h2>
+    <p>Whether you're celebrating a cherished family milestone, hosting esteemed business associates, or seeking a discreet dining experience, A Table For You caters to your every desire.</p>
+
+<p>Chef José, acclaimed for his tenure in Michelin-starred kitchens and his unwavering commitment to culinary excellence, creates bespoke menus tailored to your unique preferences and occasion.</p>
+
+<p>From intimate family gatherings to high-level business dinners, every detail is meticulously curated to ensure an unforgettable experience. Indulge in the finest seasonal ingredients, expertly prepared dishes, and impeccable service, all within the comfort and privacy of your chosen setting. Discover the true meaning of personalized dining with A Table For You.</p>
 </section>
