@@ -10,6 +10,4 @@ include 'inc/alt-header.inc.php';
         <li><a href="mains.php">Mains</a></li>
         <li><a href="desserts.php">Desserts</a></li>
     </ul>
-</section>
-
-
+</section>;
