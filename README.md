@@ -28,6 +28,6 @@ Proceed with caution – this code is a work in progress. You might encounter:
 - Integrate a contact form for seamless client communication
 - Multilingual support (Spanish, French, Arabic) to cater to a diverse clientele.
 
-**Feedback Welcome!**
+## Feedback Welcome!
 
 If you try this out, let me know what you think! Your feedback is like constructive criticism from Gordon Ramsay – a little scary, but ultimately helpful.
