@@ -4,17 +4,14 @@
 
 Welcome to my culinary PHP adventure! This is a multi-page site I'm proofing my skills for a private chef. Think of it like a tasting menu – each page is a little experiment, and some are tastier than others.
 
-## Current Menu (Features):
+## Chef's Special:
 
 - **Navigation Bar:** A delightful dance between PHP's `basename` and some conditional formatting. It knows which page you're on (like a good waiter).
-- **Grid Playtime:** I'm experimenting with CSS Grids. They need more seasoning.
-- **Modular CSS Dreams:** I'm trying to organise my CSS like a well-stocked pantry. So far, it's more like a cupboard of doom. 💣
 
 ## Warning: Kitchen Hazard Zone!
 
 Proceed with caution – this code is a work in progress. You might encounter:
 
-- **CSS Mayhem:** Brace yourself for style mishaps. It's like my own cooking: it just about tastes ok.
 - **PHP Quirks:** There might be some unconventional PHP choices. Think of it as a fusion cuisine experiment.
 
 ## To Serve Locally (with XAMPP):
