@@ -5,12 +5,12 @@ $pageTitle = 'Home';
 include 'inc/sitegrid-nav.inc.php';
 ?>
         <section class="quote">
-            <blockquote>
+            <blockquote class="noto-sans-h2">
                 Embark on a culinary adventure, designed exclusively for you.
             </blockquote>
         </section>
   <section class="events-list">
-<h2>Elevate Your Occasions</h2>
+<h2 class="noto-sans-h2">Elevate Your Occasions</h2>
 <ul>
 <li>Exclusive Private Dining</li>
 <li>Celebratory Galas &amp; Milestones</li>

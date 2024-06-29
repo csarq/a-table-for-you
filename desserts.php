@@ -4,7 +4,7 @@ include 'sample-menus.php';
 ?>
 
 <section class="menuTitle">
-    <h2><?php echo $sampleMenu; ?></h2>
+    <h2 class="noto-sans-h2"><?php echo $sampleMenu; ?></h2>
 </section>
 
 <section class="menuItems">

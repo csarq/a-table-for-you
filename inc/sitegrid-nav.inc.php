@@ -5,13 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="sitegrid-nav.css">
   <link rel="stylesheet" href="<?php echo $stylesheet; ?>">
-    <title>A Table for You &bull; <?php echo $pageTitle; ?></title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
+  <title>A Table for You &bull; <?php echo $pageTitle; ?></title>
 </head>
 <body>
   <main>
     <section class="<?php echo $title_area; ?> title">
     <header class="backdrop">
-    <h1>A Table for You by Chef José</h1>
+    <h1 class="noto-sans-h1">A Table for You by Chef José</h1>
     </header>
     </section>
 
