@@ -4,19 +4,19 @@ main {
   grid-template-rows: 0.15fr repeat(3, 1fr) 0.25fr;
   gap: 2% 1%;
   grid-auto-flow: row;
-  grid-template-areas:
-    ". . . . . ."
-    ". title title . nav ."
-    ". about about . . ."
-    ". about about . . ."
-    ". . . . . .";
-
   width: 100vw;
   height: 100vh;
 }
 
+.title-area-home {
+  grid-area: 2 / 2 / 4 / 4;
+}
+
+.title-area-slim {
+  grid-area: 2 / 2 / 2 / 4;
+}
+
 .title {
-  grid-area: title;
   display: grid;
   place-items: center;
   background-image: url("img/title-dessert.jpg");
@@ -26,7 +26,7 @@ main {
 }
 
 .backdrop {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.50);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(5px);
   border-radius: 10px;
@@ -35,19 +35,16 @@ main {
 }
 
 .nav {
-  grid-area: nav;
+  grid-area: 2 / 5 / 2 / 6;
   display: flex;
   justify-content: flex-end;
-  /* Align items to the right */
 }
 
 .nav ul {
   list-style: none;
-  /* Remove default list markers */
   margin: 0;
   padding: 0;
   display: flex;
-  /* Make list items display horizontally */
 }
 
 .nav li {
@@ -78,9 +75,4 @@ main {
 .nav a:hover {
   text-decoration: underline;
   /* Add underline on hover */
-}
-
-.about {
-  grid-area: about;
-  background-color: rgb(243, 223, 227);
 }

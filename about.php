@@ -1,7 +1,8 @@
 <?php
-$stylesheet = 'about-header.css';
+$stylesheet = 'about.css';
 $pageTitle = 'About';
-include 'inc/alt-header.inc.php';
+$title_area = 'title-area-slim';
+include 'inc/sitegrid-nav.inc.php';
 ?>
 
 <section class="about">

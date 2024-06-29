@@ -1,5 +1,8 @@
 <?php
-include 'inc/header.inc.php';
+$stylesheet = 'home.css';
+$title_area = 'title-area-home';
+$pageTitle = 'Home';
+include 'inc/sitegrid-nav.inc.php';
 ?>
         <section class="quote">
             <blockquote>

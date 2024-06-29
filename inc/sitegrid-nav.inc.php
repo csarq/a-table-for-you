@@ -1,4 +1,21 @@
- <!-- Dynamic Styling with PHP: Within each <li> tag, there's a PHP conditional statement that checks if the current script's name matches the name of the page linked by the <a> tag within that list item. This is achieved by:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sitegrid-nav.css">
+  <link rel="stylesheet" href="<?php echo $stylesheet; ?>">
+    <title>A Table for You &bull; <?php echo $pageTitle; ?></title>
+</head>
+<body>
+  <main>
+    <section class="<?php echo $title_area; ?> title">
+    <header class="backdrop">
+    <h1>A Table for You by Chef José</h1>
+    </header>
+    </section>
+
+   <!-- Dynamic Styling with PHP: Within each <li> tag, there's a PHP conditional statement that checks if the current script's name matches the name of the page linked by the <a> tag within that list item. This is achieved by:
 
 Using $_SERVER['SCRIPT_NAME'] to get the path of the current script being executed.
 Wrapping it with htmlspecialchars() to convert special characters to HTML entities, preventing XSS (Cross-Site Scripting) attacks. The ENT_QUOTES flag ensures both double and single quotes are converted, and 'UTF-8' specifies the character encoding.
@@ -18,3 +35,6 @@ If the current page's filename matches the one specified in the condition, PHP e
            <a href="about.php">About</a></li>
    </ul>
 </nav>
+   
+
+  
