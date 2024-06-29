@@ -98,22 +98,19 @@ main {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: row;
+  text-wrap: nowrap;
 }
 
 .nav li {
-  margin-left: 20px;
-  /* Add spacing between list items */
+  margin-left: 2em;
 }
 
 .nav a {
   display: block;
-  /* Make entire area clickable */
-  padding: 1em 0 1em 1em;
-  /* Add padding for visual appeal */
+  padding: 1em;
   text-decoration: none;
-  /* Remove default link underline */
   color: #333;
-  /* Set a default text color */
 }
 
 /* Focus state for keyboard navigation */

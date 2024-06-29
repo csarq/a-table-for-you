@@ -1,11 +1,36 @@
 .quote {
   grid-area: 3 / 4 / 3 / 5;
+  display: flex;
   border: 1em solid rgb(214, 172, 179);
+  align-items: center;
+  justify-content: center;
+}
+
+.quote h2 {
+  text-align: center;
 }
 
 .events-list {
   grid-area: 4 / 2 / 4 / 3;
   background-color: rgb(243, 223, 227);
+  padding: 1em;
+}
+
+.events-list ul {
+  margin-left: -1.5em;
+}
+
+.events-list li {
+  list-style: none;
+}
+
+.events-list li::before {
+  content: "\2013";
+  display: inline-block;
+  /* Make the pseudo-element behave like an inline-block */
+  width: 0.5em;
+  /* Adjust width for desired space */
+  margin-right: 0.5em;
 }
 
 img {

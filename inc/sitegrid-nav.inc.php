@@ -14,7 +14,7 @@
   <main>
     <section class="<?php echo $title_area; ?> title">
     <header class="backdrop">
-    <h1 class="noto-sans-h1">A Table for You by Chef José</h1>
+    <h1 class="noto-sans-h1">A Table for You</h1>
     </header>
     </section>
 
@@ -28,14 +28,14 @@ If the current page's filename matches the one specified in the condition, PHP e
 
 <nav class="nav">
    <ul>
-       <li <?php if (basename(htmlspecialchars($_SERVER['SCRIPT_NAME'], ENT_QUOTES, 'UTF-8')) == 'index.php') echo 'style="background-color: lightblue;"'; ?>>
-           <a href="index.php">Home</a>
+       <li>
+           <a href="index.php" <?php if (basename(htmlspecialchars($_SERVER['SCRIPT_NAME'], ENT_QUOTES, 'UTF-8')) == 'index.php') echo 'style="background-color: lightblue;"'; ?>>Home</a>
        </li>
-       <li <?php if (basename(htmlspecialchars($_SERVER['SCRIPT_NAME'], ENT_QUOTES, 'UTF-8')) == 'sample-menus.php') echo 'style="background-color: lightblue;"'; ?>>
-           <a href="sample-menus.php">Sample Menus</a>
+       <li>
+           <a href="sample-menus.php" <?php if (basename(htmlspecialchars($_SERVER['SCRIPT_NAME'], ENT_QUOTES, 'UTF-8')) == 'sample-menus.php') echo 'style="background-color: lightblue;"'; ?>>Sample Menus</a>
        </li>
-       <li <?php if (basename(htmlspecialchars($_SERVER['SCRIPT_NAME'], ENT_QUOTES, 'UTF-8')) == 'about.php') echo 'style="background-color: lightblue;"'; ?>>
-           <a href="about.php">About</a></li>
+       <li>
+           <a href="about.php" <?php if (basename(htmlspecialchars($_SERVER['SCRIPT_NAME'], ENT_QUOTES, 'UTF-8')) == 'about.php') echo 'style="background-color: lightblue;"'; ?>>About</a></li>
    </ul>
 </nav>
    
