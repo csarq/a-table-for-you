@@ -21,17 +21,14 @@ if ($current_page == 'sample-menus.php') {
 
 <p>Embark on a collaborative journey with Chef José to design a menu that reflects your refined tastes and the unique character of your occasion. Our sample menus are merely a starting point—your imagination is the limit:</p>
 
-<h4>Ambiance and Occasion</h4>
-<p>Describe the desired atmosphere, whether it\'s an intimate soirée, a celebratory gala, or an executive luncheon. Share details about the venue and any specific themes or preferences.</p>
-
 <h4>Guest Profiles & Preferences</h4>
-<p>Inform us of any dietary restrictions, allergies, or special requests to ensure a seamless and delightful experience for all your guests. Share any insights into their preferred flavors or culinary styles.</p>
+<p>Inform us of any dietary restrictions, allergies, or special requests to ensure a seamless and delightful experience for all your guests. </p>
 
 <h4>Culinary Inspirations</h4>
 <p>Indulge us with your culinary desires. Are you drawn to a particular region\'s cuisine, a specific era\'s culinary traditions, or perhaps a fusion of flavors? The possibilities are endless.</p>
 
 <h4>Additional Considerations</h4>
-<p>Share any supplementary requests that will elevate your experience, such as bespoke cocktails, personalized desserts, or unique table settings.</p>
+<p>Share any supplementary requests that will elevate your experience, such as personalised desserts, or unique table settings.</p>
 
     </section>'; 
 } 
