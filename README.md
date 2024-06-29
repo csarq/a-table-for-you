@@ -8,20 +8,17 @@ Welcome to my culinary PHP adventure! This is a multi-page site I'm proofing my 
 
 - **Navigation Bar:** A delightful dance between PHP's `basename` and some conditional formatting. It knows which page you're on (like a good waiter).
 
-## Warning: Kitchen Hazard Zone!
-
-Proceed with caution – this code is a work in progress. You might encounter:
-
-- **PHP Quirks:** There might be some unconventional PHP choices. Think of it as a fusion cuisine experiment.
+- **PHP Quirks:** There might be some unconventional PHP choices. Think of it as a fusion cuisine experiment while I'm learning.
 
 ## To Serve Locally (with XAMPP):
 
 1.  **Clone:** Grab this repository like it's the last slice of pizza.
 2.  **XAMPP Setup:** Make sure you have XAMPP up and running (like a preheated oven).
 3.  **htdocs:** Place this project in your XAMPP `htdocs` folder.
-4.  **Fire it up:** Launch your browser and visit `http://localhost/a-table-for-you`
+4.  **Fire it up:** Launch your browser and visit `http://localhost/a-table-for-you/index.php`
 
-## Future enhancements  
+## Future enhancements
+
 - Integrate a contact form for seamless client communication
 - Multilingual support (Spanish, French, Arabic) to cater to a diverse clientele.
 
