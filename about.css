@@ -1,4 +1,5 @@
 .about {
   grid-area: 3 / 2 / 5 / 4;
   background-color: rgb(243, 223, 227);
+  padding: 2em;
 }
